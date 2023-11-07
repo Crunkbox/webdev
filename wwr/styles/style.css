@@ -187,7 +187,29 @@ h4 {
 .card-img, .mountains {
     width: 100%;
 }
-
+#subhero-img {
+    width: 100%;
+}
+#price-title {
+    color: #181E6B;
+    font-family: 'Lugrasimo';
+}
+.rates-dates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.rates-dates-grid h2 {
+    color: #181E6B;
+}
+.rates-dates-grid li {
+    text-align: left;
+}
+.rates-dates-grid section {
+    margin: 30px;
+}
+.trip-img {
+    width: 300px;
+}
 /* media query, nothing goes below this*/
 
 @media screen and (max-width: 900px) {
