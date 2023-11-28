@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web-component.css">
+    <title>Thomas Meyers | A Web Component | W12</title>
+</head>
+<body>
+    <button class="accordion">Beethoven</button>
+    <div class="panel">
+        <p>Ludwig von Beethoven is one of my favorite composers. One of my favorites is the first movement of Moonlight Sonata. I used to have this piece memorized.</p>
+    </div>
+
+    <button class="accordion">Handel</button>
+    <div class="panel">
+        <p>Handel was regarded by Beethoven as the greatest composer of all time. This was in reference to Handel's 'Messiah,' a piece that has been renowned the world over and has been played every Christmas.</p>
+    </div>
+
+    <button class="accordion">DeBussy</button>
+    <div class="panel">
+        <p>DeBussy is more likely a Contemporary composer, but he very much was inspired the Romantic composers of his youth. 'Clair de Lune' is one his most memmorable pieces.</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
+</body>
+</html>
