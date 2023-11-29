@@ -146,6 +146,75 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+.sub-title {
+    text-align: center;
+    font-family: 'Junge';
+    font-size: 3em;
+}
+.mono {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 100px;
+    background-color: #2f303b;
+}
+.mono-head {
+    grid-column: 3/4;
+    z-index: 1;
+    grid-row: 1;
+    color: #CDD3EC;
+}
+.mono-img {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.mono p {
+    grid-column: 5/8;
+    grid-row: 1;
+    color: #CDD3EC;
+}
+.anal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 100px;
+    background-color: #00e4f0;
+}
+.anal-head {
+    grid-column: 5/6;
+    grid-row: 1;
+    z-index: 1;
+    color: #0000f0;
+}
+.anal-img {
+    grid-column: 4/8;
+    grid-row: 1;
+}
+.anal p {
+    grid-column: 1/4;
+    grid-row: 1;
+    color: #0000f0;
+}
+.compl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #34429b;
+    padding-bottom: 100px;
+    margin-bottom: -200px;
+}
+.compl-head {
+    grid-column: 3/4;
+    z-index: 1;
+    grid-row: 1;
+    color: #706338;
+}
+.compl-img {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.compl p {
+    grid-column: 5/8;
+    grid-row: 1;
+    color: #efb800;
+}
 .red {
     width: 100px; 
     height: 100px; 
