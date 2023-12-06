@@ -215,53 +215,95 @@ footer .social img {
     grid-row: 1;
     color: #efb800;
 }
+#intro {
+    background-color: #6444BB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#intro p {
+    color: #CDD3EC;
+    margin: 0 auto;
+}
+.box-grid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0766B5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+}
 .red {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: red;
+    margin: 0 auto;
 }
 .orange {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: orangered;
+    margin: 0 auto;
 }
 .yellow {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: yellow;
+    margin: 0 auto;
 }
 .green {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: green;
+    margin: 0 auto;
 }
 .blue {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: blue;
+    margin: 0 auto;
 }
 .purple {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: purple;
-}
-.violet {
-    width: 100px; 
-    height: 100px; 
-    background-color: violet;
+    margin: 0 auto;
 }
 .white {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: white;
-}
-.gray {
-    width: 100px; 
-    height: 100px; 
-    background-color: gray;
+    margin: 0 auto;
 }
 .black {
-    width: 100px; 
-    height: 100px; 
+    width: 200px; 
+    height: 200px; 
     background-color: black;
+    margin: 0 auto;
+}
+.background {
+    background-color: #140C65;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.color-squ {
+    max-width: 800px;
+    height: 800px;
+    background-color: #6444BB;
+    grid-column: 1/5;
+    grid-row: 3/9;
+}
+.folder-img {
+    grid-column: 3/7;
+    grid-row: 4/8;
+    z-index: 1;
+}
+.background p {
+    color: #CDD3EC;
+    justify-self: left;
+    grid-column: 7/11;
+    grid-row: 4/8;
+    z-index: 2;
 }
